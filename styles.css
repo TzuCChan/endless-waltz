@@ -43,9 +43,9 @@ html, body {
 }
 
 .main-header {
-  background-image: url("images/4vbywo4gi1681.jpg");
+  background-image: url("images/gundam-witch-900x506.jpg");
   background-size: cover;
-  background-color: black;
+  background-color: whitesmoke;
   background-blend-mode: multiply;
   padding-bottom: 30px;
 }
@@ -111,4 +111,87 @@ html, body {
 .footer-nav img {
   width: 30px;
   height: 30px;
+}
+
+.btn {
+  text-align: center;
+  vertical-align: middle;
+  padding: .67em;
+  cursor: pointer;
+}
+
+.btn-header {
+  margin: .5em 15% 2em 15%;
+  color: white;
+  border: 2px solid blue;
+  background-color: darkgray;
+  border-radius: 0;
+  font-size: 1.5em;
+  font-weight: lighter;
+  padding-left: 2em;
+  padding-right: 2em;
+}
+
+.btn-header:hover {
+  background-color: gray;
+}
+
+.btn-play {
+  display: block;
+  margin: 0 auto;
+  color: blue;
+  font-size: 4em;
+  border-radius: 50%;
+  padding: 0;
+  width: 100px;
+  height: 100px;
+}
+
+.gundam-row {
+  border-bottom: 1px solid black;
+  padding-bottom: 1em;
+  margin-bottom: 1em;
+}
+
+.gundam-row:last-child {
+  border-bottom: none;
+}
+
+.gundam-unit {
+  display: inline-block;
+  padding-right: .5em;
+}
+
+.gundam-name {
+  color: gray;
+  font-weight: bold;
+  width: 11%;
+}
+
+.gundam-model {
+  width: 24%;
+}
+
+.gundam-height {
+  width: 24%;
+}
+
+.gundam-width {
+  width: 24%;
+}
+
+.gundam-btn {
+  max-width: 19%;
+}
+
+.btn-primary {
+  color: white;
+  background-color: blue;
+  border: none;
+  border-radius: .3em;
+  font-weight: bold;
+}
+
+.btn-primary:hover {
+  background-color: black;
 }

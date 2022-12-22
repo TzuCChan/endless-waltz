@@ -3,107 +3,84 @@
   <head>
     <title>Gund-Arm</title>
     <meta name="description" content="this is the description">
+    <link rel="stylesheet" href="styles.css" />
   </head>
   <body>
-    <header>
-      <nav>
+    <header class="main-header">
+      <nav class="nav main-nav">
         <ul>
           <li><a href="index.html">Home</a></li>
           <li><a href="gundam.html">Gundam</a></li>
           <li><a href="about.html">About</a></li>
         </ul>
       </nav>
-      <hr>
-      <h1>Gund-Arm Inc.</h1>
-      <button type="button">Learn more about Gundam</button>
-      <br>
-      <br>
-      <!-- Find a image later -->
-      <button type="button">&#9658;</button>
+      <h1 class="company-name company-name-large">Gund-Arm Inc.</h1>
+      <div class="container">
+        <button class="btn btn-header" type="button">Learn more about Gundam</button>
+      </div>
+      <button class="btn btn-header btn-play" type="button">&#9658;</button>
     </header>
-    <section>
-      <h2>GUNDAMS</h2>
+    <section class="content-section container">
+      <h2 class="section-header">GUNDAMS</h2>
       <div>
-        <div>
-          <strong>Aerial</strong>
-          &lt;&gt;
-          <span>Beam Saber</span>
-          &lt;&gt;
-          <span>Bits</span>
-          &lt;&gt;
-          <span>Shield</span>
-          &lt;&gt;
-          <button type="button">Purchase</button>
-          <hr>
+        <div class="gundam-row">
+          <span class="gundam-unit gundam-name">Aerial</span>
+          <span class="gundam-unit gundam-model">XVX-016</span>
+          <span class="gundam-unit gundam-height">18.0 meters</span>
+          <span class="gundam-unit gundam-wight">43.9 metric tons</span>
+          <button type="button" class="btn gundam-unit gundam-btn btn-primary">Purchase</button>
         </div>
-        <div>
-          <strong>Lfrith</strong>
-          &lt;&gt;
-          <span>Beam Saber 2</span>
-          &lt;&gt;
-          <span>Bits 2</span>
-          &lt;&gt;
-          <span>Shield 2</span>
-          &lt;&gt;
-          <button type="button">Purchase</button>
-          <hr>
+        <div class="gundam-row">
+          <span class="gundam-unit gundam-name">Lfrith</span>
+          <span class="gundam-unit gundam-model">XGF-02</span>
+          <span class="gundam-unit gundam-height">18.0 meters</span>
+          <span class="gundam-unit gundam-wight">49.3 metric tons</span>
+          <button type="button" class="btn gundam-unit gundam-btn btn-primary">Purchase</button>
         </div>
-        <div>
-          <strong>Pharact</strong>
-          &lt;&gt;
-          <span>Beam Sabers</span>
-          &lt;&gt;
-          <span>Bits</span>
-          &lt;&gt;
-          <span>Long Rifle</span>
-          &lt;&gt;
-          <button type="button">Purchase</button>
-          <hr>
+        <div class="gundam-row">
+          <span class="gundam-unit gundam-name">Pharact</span>
+          <span class="gundam-unit gundam-model">FP/A-77</span>
+          <span class="gundam-unit gundam-height">19.1 meters</span>
+          <span class="gundam-unit gundam-wight">57.1 metric tons</span>
+          <button type="button" class="btn gundam-unit gundam-btn btn-primary">Purchase</button>
         </div>
-        <div>
-          <strong>Lfrith Thorn</strong>
-          &lt;&gt;
-          <span>Unknown</span>
-          &lt;&gt;
-          <span>Unknown</span>
-          &lt;&gt;
-          <span>Unknown</span>
-          &lt;&gt;
-          <button type="button">Purchase</button>
-          <hr>
+        <div class="gundam-row">
+          <span class="gundam-unit gundam-name">Lfrith Thorn</span>
+          <span class="gundam-unit gundam-model">Unknown</span>
+          <span class="gundam-unit gundam-height">Unknown</span>
+          <span class="gundam-unit gundam-wight">Unknown</span>
+          <button type="button" class="btn gundam-unit gundam-btn btn-primary">Purchase</button>
         </div>
-        <div>
-          <strong>Lfrith Ur</strong>
-          &lt;&gt;
-          <span>Unknown</span>
-          &lt;&gt;
-          <span>Unknown</span>
-          &lt;&gt;
-          <span>Unknown</span>
-          &lt;&gt;
-          <button type="button">Purchase</button>
+        <div class="gundam-row">
+          <span class="gundam-unit gundam-name">Lfrith Ur</span>
+          <span class="gundam-unit gundam-model">Unknown</span>
+          <span class="gundam-unit gundam-height">Unknown</span>
+          <span class="gundam-unit gundam-wight">Unknown</span>
+          <button type="button" class="btn gundam-unit gundam-btn btn-primary">Purchase</button>
         </div>
       </div>
     </section>
-    <footer>
-      <h3>A.S. (Ad Stella) 122. An era when a multitude of corporations have entered space and built a huge economic system. A lone girl from the remote planet Mercury transfers to the Asticassia School of Technology, run by the Benerit Group which dominates the mobile suit industry. Her name is Suletta Mercury. With a scarlet light burning in her pure heart, this girl walks step by step through a new world.</h3>
-      <ul>
-        <li>
-          <a href="https://github.com" target="_blank">
-            <img src="images/github.png">
-          </a>
-        </li>
-        <li>
-          <a href="https://www.youtube.com/" target="_blank">
-            <img src="images/youtube.png">
-          </a>
-        </li>
-        <li>
-          <a href="https://www.linkedin.com/in/leon-tzu-chiang-chan/" target="_blank">            
-            <img src="images/linkedin.png">
-          </a>
-        </li>
-      </ul>
+    <footer class="main-footer">
+      <div class="container main-footer-container">
+        <h3 class="company-name">GUND-ARM Inc.</h3>
+        <ul class="nav footer-nav">
+          <li>
+            <a href="https://github.com" target="_blank">
+              <img src="images/github.png">
+            </a>
+          </li>
+          <li>
+            <a href="https://www.youtube.com/" target="_blank">
+              <img src="images/youtube.png">
+            </a>
+          </li>
+          <li>
+            <a href="https://www.linkedin.com/in/leon-tzu-chiang-chan/" target="_blank">            
+              <img src="images/linkedin.png">
+            </a>
+          </li>
+        </ul>
+      </div>
     </footer>
   </body>
 </html>
